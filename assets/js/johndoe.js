@@ -35,7 +35,7 @@ $(document).ready(function(){
 $(window).on("load", function() {
     var t = $(".portfolio-container");
     t.isotope({
-        filter: ".new",
+        filter: ".professional",
         animationOptions: {
             duration: 750,
             easing: "linear",
