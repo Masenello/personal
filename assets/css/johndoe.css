@@ -14,12 +14,12 @@
 */
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap");
 :root {
-  --blue: #79A9F5;
+  --blue: #4389f9;
   --indigo: #C45F90;
   --purple: #A16AE8;
   --pink: #FC8BC0;
-  --red: #F85C70;
-  --orange: #FF8882;
+  --red: #ea2424;
+  --orange: #ef5016;
   --yellow: #FAD02C;
   --green: #A3C14A;
   --teal: #20c997;
@@ -27,12 +27,12 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: var(--red);
+  --primary: var(--blue);
   --secondary: var(--gray);
   --success:var(--green);
   --info: var(--cyan);
   --warning: var(--orange);
-  --danger: var(--primary);
+  --danger: var(--red);
   --light: var(--white);
   --dark: var(--gray-dark);
   --breakpoint-xs: 0;
@@ -2943,7 +2943,7 @@ fieldset:disabled a.btn {
 
 .btn-danger {
   color: #fff;
-  background-color: var(--primary);
+  background-color: var(--danger);
   border-color: var(--primary);
 }
 
