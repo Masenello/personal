@@ -11131,6 +11131,16 @@ a.text-danger:focus {
   color: var(--white) !important;
 }
 
+.link-text-light {
+  color: var(--white) !important;
+  text-decoration: underline;
+  cursor: pointer; /* Add a pointer cursor to make it appear clickable */
+}
+
+.text-light {
+  color: var(--white) !important;
+}
+
 a.text-light:hover,
 a.text-light:focus {
   color: #cbd3da !important;
@@ -11994,88 +12004,3 @@ pre .code {
   margin-top: 10px;
 }
 
-/* Styles for the modal container */
-.modal-container {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  /* min-width: 100%;
-  min-height: 100%;
-  max-width: 100%;
-  max-height: 100%; */
-  background-color: rgba(0, 0, 0, 0.7);
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-}
-
-/* Styles for the modal content */
-.modal-content {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  position: fixed !important;
-  top: 50% !important;
-  left: 50% !important;
-  transform: translate(-50%, -50%) !important;
-  z-index: 999 !important;
-  background-color: white;
-  width: 80%;
-  height: 80%;
-}
-
-/* Style for the close button */
-.close-button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  cursor: pointer;
-}
-
-/* Style for the image gallery container */
-.gallery-container {
-  position: relative;
-  width: 80%; 
-  height: 100%; 
-  overflow:auto;
-}
-
-/* Style for the image */
-.gallery-item {
-  position: absolute;
-  width: auto;
-  height: auto;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto; /* Center the image horizontally and vertically */
-  object-fit: contain; /* Ensure the image maintains its aspect ratio and fits the container */
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-}
-
-/* Style for navigation buttons */
-.nav-button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 30px;
-  height: 30px;
-  background-color: rgba(0, 0, 0, 0.7);
-  color: white;
-  text-align: center;
-  line-height: 30px;
-  cursor: pointer;
-}
-
-/* Style for left and right buttons */
-.left-button {
-  left: 10px;
-}
-
-.right-button {
-  right: 10px;
-}
