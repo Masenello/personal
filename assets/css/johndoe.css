@@ -12052,7 +12052,7 @@ pre .code {
   top: 0;
   bottom: 0;
   margin: auto; /* Center the image horizontally and vertically */
-  object-fit: scale-down !important; /* Ensure the image maintains its aspect ratio and fits the container */
+  object-fit: contain; /* Ensure the image maintains its aspect ratio and fits the container */
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
