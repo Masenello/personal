@@ -31,7 +31,7 @@ $(document).ready(function(){
     });
 });
 
-// protfolio filters
+// portfolio filters
 $(window).on("load", function() {
     var t = $(".portfolio-container");
     t.isotope({
@@ -54,6 +54,26 @@ $(window).on("load", function() {
         }), !1
     });
 });
+
+// JavaScript functions to open and close the modal by ID
+function openModal(modalId) {
+  document.getElementById(modalId).style.display = 'block';
+}
+
+function closeModal(modalId) {
+  document.getElementById(modalId).style.display = 'none';
+}
+
+let currentIndex = 0;
+const images = document.querySelectorAll('.gallery-item');
+const numImages = images.length;
+function changeImage(offset) {
+  images[currentIndex].style.opacity = 0;
+  currentIndex = (currentIndex + offset + numImages) % numImages;
+  images[currentIndex].style.opacity = 1;
+}
+// Initially display the first image
+images[currentIndex].style.opacity = 1;
 
 
 // google maps

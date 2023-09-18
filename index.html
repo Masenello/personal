@@ -498,9 +498,39 @@
                                 <div class="text-holder">
                                     <h6 class="title">Ratti MES</h6>
                                     <p class="subtitle">Shop floor management for Ratti Spa</p>
+                                    <button class="btn btn-outline-light" onclick="openModal('rattiModal')">Info</button>
                                 </div>
                             </div>   
-                        </div>             
+                        </div>   
+                        <!-- Additinal info -->
+                        <div id="rattiModal" class="modal-container">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close-button" onclick="closeModal('rattiModal')">&times;</span>
+                                <h2>Ratti MES</h2>
+                                <p>This is some modal content.</p>
+                                <div class="gallery-container">
+                                    <div class="gallery-item">
+                                        <img src="assets\imgs\branding-1.jpg" alt="Image 1">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="assets\imgs\branding-2.jpg" alt="Image 2">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="assets\imgs\branding-3.jpg" alt="Image 3">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="assets\imgs\branding-5.jpg" alt="Image 5">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="assets\imgs\branding-4.jpg" alt="Image 4">
+                                    </div>
+                                    <!-- Add more gallery items as needed -->
+                                    <div class="nav-button left-button" onclick="changeImage(-1)">&#8249;</div>
+                                    <div class="nav-button right-button" onclick="changeImage(1)">&#8250;</div>
+                                </div>
+                            </div>
+                        </div>          
                     </div>
                     <div class="col-md-6 col-lg-4 professional ">
                         <div class="portfolio-item">
