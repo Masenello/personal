@@ -11401,6 +11401,7 @@ p {
 .card .card-body {
   font-size: 14px;
   color: var(--secondary);
+  min-height: 200px;
 }
 
 .price-card {
