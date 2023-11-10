@@ -11302,6 +11302,11 @@ p {
   font-size: 65px;
 }
 
+.image-icon-xl {
+  width: 65px;
+  height: 65px;
+}
+
 .info {
   color: var(--secondary);
   font-size: 14px;
